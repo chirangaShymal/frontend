@@ -1,0 +1,33 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-image: url('../image/h.png'); /* Path to your background image */
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set height to cover the screen */
+    color: white;
+  }
+  
+  .home-text {
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Dark background for readability */
+    border-radius: 5px;
+  }
+  
+  .home-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .home-image {
+    width: 20%;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }

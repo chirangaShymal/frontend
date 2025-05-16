@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  div {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+  }
+  
+  /* Heading */
+  h1 {
+    color: #333;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: right;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button.edit {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  button.delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  .container {
+    display: flex;
+    justify-content: flex-end; /* Move everything to the right */
+    padding: 20px;
+  }
+  
+  .table-container {
+    width: 50%;
+    text-align: left;
+  }
+  .head {
+    text-align: center; /* Center the text */
+    font-size: 28px; /* Adjust font size */
+    font-weight: bold; /* Make it bold */
+    color: #333; /* Dark color */
+    margin: 20px 0; /* Add spacing */
+  }
+  .cart-title {
+    text-align: center;
+  }
+  .cart-container {
+    text-align: center; /* Center align everything */
+    padding: 20px;
+  }
+  
+  .cart-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 350px;
+    margin: 10px auto; /* Center horizontally */
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-item h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .cart-item h4 {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .delete-btn:hover {
+    background-color: darkred;
+  }

@@ -1,0 +1,43 @@
+div.d1 {
+    width: 450px;
+   /* padding: 20px;*/
+    margin: 20px auto;
+    background-color: #e1e2e2;
+    border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border: 200px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:first-of-type {
+    background-color: #007bff;
+    color: white;
+}
+
+button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+image{background-image: url("../image/Inventory.png");
+background-position: right bottom, left top;
+background-repeat: no-repeat, repeat;
+padding: 15px;}
